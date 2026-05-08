@@ -4,6 +4,9 @@ import pickle
 import random
 import nltk
 
+nltk.download('punkt')
+nltk.download('punk_tab')
+
 from nltk.stem import PorterStemmer
 
 # Load trained model and vectorizer
