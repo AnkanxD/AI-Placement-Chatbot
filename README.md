@@ -1,5 +1,7 @@
 # 🤖 AI Placement Preparation Chatbot
 
+#Live Demo
+[Click Here to Open Live Chatbot](https://ai-placement-chatbot-main.streamlit.app/)
 An AI-based placement preparation chatbot developed using Python, NLP, and Machine Learning.
 
 ## 🚀 Features
