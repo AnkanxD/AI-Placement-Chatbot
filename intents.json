@@ -1,0 +1,61 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! Ask me anything about placements or programming."
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": [
+        "What is Python?",
+        "Explain Python",
+        "Tell me about Python"
+      ],
+      "responses": [
+        "Python is a high-level programming language used in web development, AI, data science, and automation."
+      ]
+    },
+    {
+      "tag": "dbms",
+      "patterns": [
+        "What is DBMS?",
+        "Explain database management system",
+        "Tell me about DBMS"
+      ],
+      "responses": [
+        "DBMS stands for Database Management System. It is used to store, manage, and retrieve data efficiently."
+      ]
+    },
+    {
+      "tag": "oops",
+      "patterns": [
+        "What is OOPs?",
+        "Explain object oriented programming",
+        "Tell me about classes and objects"
+      ],
+      "responses": [
+        "OOPs stands for Object-Oriented Programming. It is based on concepts like class, object, inheritance, polymorphism, abstraction, and encapsulation."
+      ]
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "What is machine learning?",
+        "Explain ML",
+        "Tell me about machine learning"
+      ],
+      "responses": [
+        "Machine Learning is a branch of Artificial Intelligence where systems learn from data and improve automatically without explicit programming."
+      ]
+    }
+  ]
+}
