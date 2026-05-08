@@ -4,8 +4,7 @@ import pickle
 import random
 import nltk
 
-nltk.download('punkt')
-nltk.download('punk_tab')
+nltk.download('punk', quiet=True)
 
 from nltk.stem import PorterStemmer
 
@@ -21,7 +20,7 @@ stemmer = PorterStemmer()
 
 # Preprocessing function
 def preprocess(text):
-    tokens = nltk.word_tokenize(text.lower())
+    tokens = text.lower().split()
     words = [stemmer.stem(word) for word in tokens]
     return " ".join(words)
 
